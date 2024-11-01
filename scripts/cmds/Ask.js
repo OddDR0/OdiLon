@@ -1,10 +1,10 @@
 const axios = require('axios');
 
 const Prefixes = [
-  '/ai',
-  'kim',
+  '.ai',
+  'odiamus',
   'Nemo',
-  '+ai',
+  'Ai',
   'nemo',
   'ai',
   'ask',
@@ -40,7 +40,7 @@ module.exports = {
       const answer = response.data.answer;
 
 
-    await message.reply({ body: `𝗡𝗜𝗦𝗛𝗜 𝗛𝗜𝗡𝗔𝗕𝗢𝗧 😊 | 🌸
+    await message.reply({ body: `Sησω αѕѕιѕтαηт 🌨️ | ☃️
 ━━━━━━━━━━━━━        
 ${answer}
 ━━━━━━━━━━━━━`,
