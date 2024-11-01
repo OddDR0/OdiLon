@@ -64,7 +64,7 @@ module.exports = {
       }
 
       await api.sendMessage({
-        body: `✨ | Here are the top ${numberSearch} 🖼️ results for your prompt ${keySearchs}`,
+        body: `🌟| Here's your search img results ${numberSearch}\n🖼️ | Your top img prompt ${keySearchs}`,
         attachment: imgData,
       }, event.threadID, event.messageID);
 
